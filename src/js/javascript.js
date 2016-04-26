@@ -1,6 +1,6 @@
-var dataproject = {
+var preaknessLineup = {
 	init: function(){
-		//dataproject.share();
+		//preaknessLineup.share();
 	},
 	share: function(){
 		$(".icon-twitter").on("click", function(){
@@ -20,6 +20,6 @@ var dataproject = {
 	}
 }
 $(document).ready(function(){
-	dataproject.init();
+	preaknessLineup.init();
 	console.log("connected");
 });

@@ -49,7 +49,98 @@ html(class="no-js", lang="en")
 			.tophat-share-tools
 				span.icon-facebook
 				span.icon-twitter
-		.container
+		#preaknessLineup.container
+			table.raceContenders
+				thead
+					th.pp PP*
+					th.silk Silk
+					th.horse Horse
+					th.owner Owner
+					th.trainer Trainer
+					th.jockey Jockey
+					th.breeder Breeder
+					th.odds Odds**
+				tbody
+					tr.horse.horse--1
+						td.pp 1
+						td.silk
+							img(src='#{datalink}images/1.png')
+						td.horse American Pharoah
+						td.owner Zayat Stables
+						td.trainer Bob Baffert
+						td.jockey Victor Espinoza
+						td.breeder Zayat Stables
+						td.odds 4-5
+					tr.horse.horse--2
+						td.pp 2
+						td.silk
+							img(src='#{datalink}images/2.png')
+						td.horse Dortmund
+						td.owner Kaleem Shah
+						td.trainer Bob Baffert
+						td.jockey Martin Garcia
+						td.breeder Emilie Gerlinde Fojan
+						td.odds 7-2
+					tr.horse.horse--3
+						td.pp 3
+						td.silk
+							img(src='#{datalink}images/3.png')
+						td.horse Mr. Z
+						td.owner Calumet Farm
+						td.trainer D. Wayne Lukas
+						td.jockey Corey Nakatani
+						td.breeder Richard D. Maynard
+						td.odds 20-1
+					tr.horse.horse--4
+						td.pp 4
+						td.silk
+							img(src='#{datalink}images/4.png')
+						td.horse Danzig Moon
+						td.owner John C. Oxley
+						td.trainer Mark Casse
+						td.jockey Julien Leparoux
+						td.breeder William D. Graham
+						td.odds 15-1
+					tr.horse.horse--5
+						td.pp 5
+						td.silk
+							img(src='#{datalink}images/5.png')
+						td.horse Tale of Verve
+						td.owner Charles Fipke
+						td.trainer Dallas Stewart
+						td.jockey Joel Rosario
+						td.breeder Charles Fipke
+						td.odds 30-1
+					tr.horse.horse--6
+						td.pp 6
+						td.silk
+							img(src='#{datalink}images/6.png')
+						td.horse Bodhisattva
+						td.owner Jose Corrales
+						td.trainer Jose Corrales
+						td.jockey Trevor McCarthy
+						td.breeder Andy Stronach
+						td.odds 20-1
+					tr.horse.horse--7
+						td.pp 7
+						td.silk
+							img(src='#{datalink}images/7.png')
+						td.horse Divining Rod
+						td.owner Lael Stables
+						td.trainer Arnaud Delacour
+						td.jockey Javier Castellano
+						td.breeder Mr. & Mrs. Roy Jackson
+						td.odds 12-1
+					tr.horse.horse--8
+						td.pp 8
+						td.silk
+							img(src='#{datalink}images/8.png')
+						td.horse Firing Line
+						td.owner Arnold Zetcher
+						td.trainer Simon Callaghan
+						td.jockey Gary Stevens
+						td.breeder Clearsky Farm
+						td.odds 4-1
 
 		//- #leaderboard			
 		//- 	include includes/ad-for-body.html
@@ -57,7 +148,6 @@ html(class="no-js", lang="en")
 		//Javascript
 		script(src="#{datalink}js/min/jquery-1.10.2.min.js")
 		script(src="#{datalink}js/min/modernizr.js")
-		script(src="#{datalink}js/javascript.js")
 		script(src="#{datalink}js/app.js")
 		//- script(src="#{datalink}js/min/app.min.js")
 

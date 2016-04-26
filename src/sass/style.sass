@@ -9,8 +9,73 @@
 
 // body
 
-// .container
+$base: white
+$accentg0: black
+$accentg1: $lightgray
+$accentg2: $darkgray
+$accentc0: $goldenrod
 
+$bp1: 500px
+$bp2: 600px
+$bp3: 700px
+$bp4: 800px
+$bp5: 900px
+$bp6: 1000px
+
+#preaknessLineup.container
+	font-size: 14px
+	table.raceContenders
+		width: 100%
+		text-align: center
+		.pp
+		.silk
+		.horse
+		.owner
+			display: none
+			@media(min-width: $bp2)
+				display: table-cell
+		.trainer
+			display: none
+			@media(min-width: $bp3)
+				display: table-cell
+		.jockey
+			display: none
+			@media(min-width: $bp1)
+				display: table-cell
+		.breeder
+			display: none
+			@media(min-width: $bp5)
+				display: table-cell
+		.odds
+		th, td
+			margin: 1em
+			padding: .5em
+		thead
+			th
+				&.pp
+				&.silk
+				&.horse
+				&.owner
+				&.trainer
+				&.jockey
+				&.breeder
+				&.odds
+		tbody
+			tr
+				&:nth-child(even)
+					background-color: $accentg1
+				td
+					&.pp
+					&.silk
+						width: 2em
+						img
+							width: 100%
+					&.horse
+					&.owner
+					&.trainer
+					&.jockey
+					&.breeder
+					&.odds
 /* Tophat */
 #tophat
 	height: 40px
